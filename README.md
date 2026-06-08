@@ -107,7 +107,7 @@ The frontend provides a fast, responsive Single-Page Application (SPA) design op
 
 #### 5. Interactive Inventory & Asset Data Sheet
 <img width="1600" height="804" alt="image" src="https://github.com/user-attachments/assets/1f89cb4f-7022-45e6-a7e5-379c90ee8aec" />
-#### LISTING IN CATALOGS 
+ LISTING IN CATALOGS 
 <img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/1ccd56a8-1304-41c4-ae62-906d3336744e" />
 
 #### 6. Financial Ledger & Fine Tracking Panel
@@ -150,7 +150,7 @@ Category 3: System Compilation Summaries
 
 G5: Smart Shelf Management System
 A full-stack Library Management System built with Spring Boot & MySQL 
-•	GitHub Repository: https://github.com/kanwalwasim05/RestaurantManagementSystem 
+•	GitHub Repository: https://github.com/kanwalwasim05/SMARTSHELF-MANAGEMENT-SYSTEM
 Group Members
 •	Kanwal Wasim (2025-IST-10) – Backend / DB 
 •	Syeda Narim Rehan (2025-IST-8) – Frontend / UI 
