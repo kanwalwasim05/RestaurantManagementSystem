@@ -119,23 +119,38 @@ The frontend provides a fast, responsive Single-Page Application (SPA) design op
 
 #### 6. Parameterized Executive Report Center
 ![Reports Panel]
-<img width="1362" height="625" alt="image" src="https://github.com/user-attachments/assets/409e8a2c-449c-4e54-befd-6f866b43d8a2" />
+<img width="1600" height="813" alt="WhatsApp Image 2026-06-08 at 11 03 25 PM (1)" src="https://github.com/user-attachments/assets/a83b7744-e082-493b-8b57-3607bdc1e878" />
+
 
 
 ---
 
 ## 📊 Enterprise Business PDF Reports
-The reporting module supports 10 distinct, parameter-filtered business reports:
-1. **Overdue Books Report:** Tracks unreturned books alongside individual fine accumulations.
-2. **Active Loans Report:** Summarizes all assets currently checked out by readers.
-3. **Member Loan History:** Provides a comprehensive historical audit trail filtered by individual Member ID.
-4. **Fines Collection Report:** Breaks down institutional revenue by separating outstanding balances from successful collections.
-5. **Book Inventory Report:** Audits catalog allocation across all physical facility branches.
-6. **Most Borrowed Books:** Details the facility's most popular titles to help guide future book acquisitions.
-7. **New Member Registrations:** Audits member growth metrics within user-defined calendar ranges.
-8. **Staff Activity Report:** Audits staff workflow volumes by logging operations executed per employee.
-9. **Reservation Status Report:** Visualizes item waitlists and hold queues for high-demand titles.
-10. **Branch Performance Report:** Compares circulation and resource utilization volumes across different branches.
+8. PDF Reports
+The reporting system supports 10 parameter-filtered business reports:
+
+Category 1: Time-Period Ledger Reports
+1. Book Issuance Audit: Tracks all library books checked out within a chosen date range, helping administrators analyze circulation volume trends. It logs specific transaction timestamps, book details, and the staff members who authorized each checkout.
+
+2. Fine Income Statement: Summarizes the total financial revenue generated from overdue penalties over a specified time period. It details the distribution between outstanding balances and completed cash collections to help clear student financial accounts.
+
+3. Acquisitions Audit: Provides a detailed log of all new books and reading assets purchased or added to the library system during a set timeline. It records supplier data, procurement costs, and catalog entry dates to keep inventory balances perfectly up to date.
+
+Category 2: Target Variable Tracking Reports
+4. Member Activity Summary: Generates a personalized profile of a single user's interaction history based on their specific Member ID. It isolates their current checkouts, total historical borrows, outstanding fines, and returns to track client accountability.
+
+5. Supplier Order Profile: Extracts comprehensive transaction histories and delivery logs from a targeted vendor using their database Supplier ID. It audits vendor fulfillment rates, bulk book shipment records, and invoicing metrics to optimize procurement choices.
+
+6. Individual Book History: Delivers an itemized lifetime circulation timeline for a specific book asset using its unique Book ID. It tracks every member who has ever borrowed that exact physical copy, helping evaluate asset wear-and-tear or identify missing items.
+
+Category 3: System Compilation Summaries
+7. Active Overdue Records: Compiles a comprehensive real-time list of all unreturned books currently past their assigned due dates across the library network. It links member contact info with daily penalty formulas to display exactly how much fine money has accumulated.
+
+8. Top Borrowed Analytics: Analyzes and ranks high-demand reading materials by counting their total checkouts to highlight student reading trends. This report guides department heads in making budget-friendly decisions on when to order duplicate copies of popular titles.
+
+9. Categorized Stock Audit: Evaluates the library's physical inventory by grouping existing items into distinct academic subjects, genres, or formats. It tracks the distribution of available versus borrowed stock, giving engineers a clear view of resource gaps.
+
+10. Inactive Member List: Identifies registered students and external cardholders who have not checked out any books or used services within a prolonged timeframe. This helps the system clean out old database records or target specific profiles for library engagement.
 
 ---
 
