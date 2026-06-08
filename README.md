@@ -93,34 +93,28 @@ The frontend provides a fast, responsive Single-Page Application (SPA) design op
 ### App Screen Previews
 
 #### 1. Reception Operations & Analytics Dashboard
-![Reception Dashboard]
-<img width="1346" height="629" alt="image" src="https://github.com/user-attachments/assets/522420b1-830a-4e81-ab28-42a4d614013f" />
+<img width="1600" height="762" alt="image" src="https://github.com/user-attachments/assets/d31651e7-0761-4b45-903e-6f1500df5084" />
 
 
 #### 2. Asset Cataloging & Form Editing Modal
-![Add Book Panel]
-<img width="1360" height="626" alt="image" src="https://github.com/user-attachments/assets/455a741c-ff6d-42fb-9b65-9af969baaf4d" />
-
+<img width="1600" height="754" alt="image" src="https://github.com/user-attachments/assets/c6a286f6-ca61-46c9-9a52-1d121bd675af" />
 
 #### 3. Circulation Management Panel (Issue/Return)
-![Circulation Panel]
-<img width="1366" height="683" alt="image" src="https://github.com/user-attachments/assets/04d3dd27-2174-4e12-85dd-3b857dac4917" />
+<img width="1600" height="804" alt="image" src="https://github.com/user-attachments/assets/3053b213-45f3-4fe5-8676-bd2f4d0855b5" />
 
+#### 4. Books Issued List Table
+<img width="1600" height="799" alt="image" src="https://github.com/user-attachments/assets/f406c1eb-81ff-4b8d-9e89-309534ddd678" />
 
-#### 4. Interactive Inventory & Asset Data Sheet
-![Catalog Table]
-<img width="1353" height="625" alt="image" src="https://github.com/user-attachments/assets/1e6a72d3-a10b-476a-9349-1ee256f70278" />
+#### 5. Interactive Inventory & Asset Data Sheet
+<img width="1600" height="804" alt="image" src="https://github.com/user-attachments/assets/1f89cb4f-7022-45e6-a7e5-379c90ee8aec" />
+#### LISTING IN CATALOGS 
+<img width="1600" height="794" alt="image" src="https://github.com/user-attachments/assets/1ccd56a8-1304-41c4-ae62-906d3336744e" />
 
+#### 6. Financial Ledger & Fine Tracking Panel
+<img width="1600" height="797" alt="image" src="https://github.com/user-attachments/assets/af291d53-1b16-4873-8295-ed809e4aa34a" />
 
-#### 5. Financial Ledger & Fine Tracking Panel
-![Fines Panel]
-<img width="1359" height="627" alt="image" src="https://github.com/user-attachments/assets/28c98188-18a7-4465-9cb1-bebfb31cd361" />
-
-
-#### 6. Parameterized Executive Report Center
-![Reports Panel]
-<img width="1600" height="813" alt="WhatsApp Image 2026-06-08 at 11 03 25 PM (1)" src="https://github.com/user-attachments/assets/a83b7744-e082-493b-8b57-3607bdc1e878" />
-
+#### 7. Parameterized Executive Report Center
+<img width="1600" height="813" alt="image" src="https://github.com/user-attachments/assets/6ed39838-69f3-4129-92aa-9218847dfd24" />
 
 
 ---
