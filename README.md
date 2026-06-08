@@ -1,2 +1,163 @@
-# RestaurantManagementSystem
-Database Systems Final Project
+# G5: SmartShelf Management System
+
+A robust, enterprise-grade, full-stack Library Management System engineered to digitize asset auditing, branch logistics, and transactional circulation workflows. Built for the **Database Systems Lab (CSC-104L)** course at the **University of Engineering and Technology (UET), Lahore**.
+
+---
+
+## 📖 Table of Contents
+1. [Project Overview](#-project-overview)
+2. [Key Architecture Requirements](#-key-architecture-requirements)
+3. [Technology Stack](#-technology-stack)
+4. [Database Design & ERD](#-database-design--erd)
+5. [Core SQL Programming Components](#-core-sql-programming-components)
+6. [User Interface Design Patterns](#-user-interface-design-patterns)
+7. [Enterprise Business PDF Reports](#-enterprise-business-pdf-reports)
+8. [Setup & Installation](#-setup--installation)
+
+---
+
+## 🚀 Project Overview
+The **SmartShelf Management System** transforms manually tracked academic libraries into an integrated RDBMS-driven digital ecosystem. It provides deep programmatic management of institutional physical resources, personnel allocations, client borrowing patterns, and real-time fine assessment mechanisms.
+
+### Institutional Operational Scope
+* **Asset Tracking Optimization:** Implements a layered catalog model tracking abstract multi-author works down to separate physical item conditions mapped globally across branch networks.
+* **Automated Financial Penalization:** Implements an exact database calculation tracking borrowing horizons, establishing late fees dynamically at **Rs. 5 per day overdue**.
+* **ACID Transactions:** Runs core multi-entity changes inside atomic database boundaries to block resource collisions or race parameters during checkouts.
+
+---
+
+## 🛠️ Key Architecture Requirements
+This platform completely implements all operational core elements defined in the official **CSC-104L Lab Project Guidelines**:
+
+| System Standard Requirement | Implemented Architectural Feature | Verification Reference |
+| :--- | :--- | :--- |
+| **Domain Classes** | 14 Fully Mapped Database Entities | `/src/main/java/com/smartshelf/model/` |
+| **Software Classes** | Dedicated Connection Pool, Utilities, Evaluators | `/src/main/java/com/smartshelf/util/` |
+| **ERD Entities** | 15 Highly Normalized Relational Entities | See ERD Section Below |
+| **Relational Tables** | 15 Interlocked Structural Base Schemas | `schema.sql` Database Init Script |
+| **Robust Constraint Profiling** | 10+ Explicit PK, FK, CHECK, and ENUM Constraints | Database Schema DDL Architecture |
+| **Atomic Transactions** | Explicit transaction sequences handling workflows | Service Layer Persistence Pipeline |
+| **Pre-Calculated Views** | 5 Custom Complex Views Tracking Operations | View Initialization Queries |
+| **Stored Procedures** | 3 Core Enterprise Context Routines | Database Routine Definitions |
+| **Active Triggers** | 2 Automated Real-Time Status Evaluators | Database Automated Elements |
+| **Runtime Error Logging** | Contextual Exception Routing to `error_log.txt` | Custom App Global Exception Handler |
+| **Enterprise Data Reporting** | 10 Parameter-Filtered PDF Data Pipelines | PDF Template Engine Wrapper |
+| **Responsive UX Architecture** | Decoupled Modern UI Optimized for Desktop/Tablets | Modular Frontend Views Engine |
+
+---
+
+## 💻 Technology Stack
+* **Frontend Engine:** Semantic HTML5, Modular CSS3 Architecture (Grid/Flexbox layout definitions), and Modern Asynchronous JavaScript.
+* **Core Application Runtime:** Java 17, Spring Boot Framework, Spring Data JPA, and Hibernate Engine.
+* **Relational Storage Kernel:** MySQL 8.0 RDBMS Server instance utilizing the high-performance InnoDB transaction engine.
+* **Build Architecture & Version Operations:** Apache Maven dependency controller and Git Version Control environment.
+
+---
+
+## 📊 Database Design & ERD
+
+The relational database layer features a highly normalized schema designed to maintain total data consistency and prevent structural redundancies.
+
+### Entity Relationship Diagram (ERD)
+
+![SmartShelf ERD]
+<img width="1386" height="1050" alt="WhatsApp Image 2026-06-08 at 3 41 19 PM" src="https://github.com/user-attachments/assets/a843be21-da12-410b-97d9-5586e9d00dc7" />
+
+
+---
+
+## 💾 Core SQL Programming Components
+
+### 1. Pre-Calculated Database Views
+* `vw_ActiveLoans`: Monitors live, ongoing checkouts with real-time member data links.
+* `vw_OverdueLoans`: Isolates late checkouts while projecting real-time financial late fees.
+* `vw_BookAvailability`: Indexes clean quantities of available books mapped by section branch.
+* `vw_MemberLoanHistory`: Centralizes a unified logging log track of all historical member allocations.
+* `vw_FinesSummary`: Filters all unpaid monetary fines to support administrative recovery workflows.
+
+### 2. Embedded Stored Procedures
+* `sp_IssueBook`: Validates checkout eligibility rules, instantiates the loan record, and toggles copy flags inside a safe wrapper.
+* `sp_ReturnBook`: Evaluates structural due date limits, automatically assesses fines if overdue, and opens asset codes back up for general catalog availability.
+* `sp_GenerateMemberReport`: Aggregates dynamic individual statistics, pulling active totals and borrowing trends for a specified member.
+
+### 3. Automated Database Triggers
+* `trg_AfterLoanInsert`: Automates inventory state updates, turning copy rows instantly to `Loaned` on new checkout creations.
+* `trg_AfterReturnUpdate`: Monitors returning workflows to release copy flags back to `Available` right when loan return fields populate.
+
+---
+
+## 🎨 User Interface Design Patterns
+
+The frontend provides a fast, responsive Single-Page Application (SPA) design optimized for desktop and tablet displays.
+
+### App Screen Previews
+
+#### 1. Reception Operations & Analytics Dashboard
+![Reception Dashboard]
+<img width="1346" height="629" alt="image" src="https://github.com/user-attachments/assets/522420b1-830a-4e81-ab28-42a4d614013f" />
+
+
+#### 2. Asset Cataloging & Form Editing Modal
+![Add Book Panel]
+<img width="1360" height="626" alt="image" src="https://github.com/user-attachments/assets/455a741c-ff6d-42fb-9b65-9af969baaf4d" />
+
+
+#### 3. Circulation Management Panel (Issue/Return)
+![Circulation Panel]
+<img width="1366" height="683" alt="image" src="https://github.com/user-attachments/assets/04d3dd27-2174-4e12-85dd-3b857dac4917" />
+
+
+#### 4. Interactive Inventory & Asset Data Sheet
+![Catalog Table]
+<img width="1353" height="625" alt="image" src="https://github.com/user-attachments/assets/1e6a72d3-a10b-476a-9349-1ee256f70278" />
+
+
+#### 5. Financial Ledger & Fine Tracking Panel
+![Fines Panel]
+<img width="1359" height="627" alt="image" src="https://github.com/user-attachments/assets/28c98188-18a7-4465-9cb1-bebfb31cd361" />
+
+
+#### 6. Parameterized Executive Report Center
+![Reports Panel]
+<img width="1362" height="625" alt="image" src="https://github.com/user-attachments/assets/409e8a2c-449c-4e54-befd-6f866b43d8a2" />
+
+
+---
+
+## 📊 Enterprise Business PDF Reports
+The reporting module supports 10 distinct, parameter-filtered business reports:
+1. **Overdue Books Report:** Tracks unreturned books alongside individual fine accumulations.
+2. **Active Loans Report:** Summarizes all assets currently checked out by readers.
+3. **Member Loan History:** Provides a comprehensive historical audit trail filtered by individual Member ID.
+4. **Fines Collection Report:** Breaks down institutional revenue by separating outstanding balances from successful collections.
+5. **Book Inventory Report:** Audits catalog allocation across all physical facility branches.
+6. **Most Borrowed Books:** Details the facility's most popular titles to help guide future book acquisitions.
+7. **New Member Registrations:** Audits member growth metrics within user-defined calendar ranges.
+8. **Staff Activity Report:** Audits staff workflow volumes by logging operations executed per employee.
+9. **Reservation Status Report:** Visualizes item waitlists and hold queues for high-demand titles.
+10. **Branch Performance Report:** Compares circulation and resource utilization volumes across different branches.
+
+---
+
+G5: Smart Shelf Management System
+A full-stack Library Management System built with Spring Boot & MySQL 
+•	GitHub Repository: https://github.com/kanwalwasim05/RestaurantManagementSystem 
+Group Members
+•	Kanwal Wasim (2025-IST-10) – Backend / DB 
+•	Syeda Narim Rehan (2025-IST-8) – Frontend / UI 
+•	Maryam Asif (2025-IST-6) – Database / SQL 
+
+
+## ⚙️ Setup & Installation
+
+### Prerequisites
+* Java Development Kit (JDK 17 or higher)
+* Maven 3.8+ Build Core
+* MySQL Server instance (v8.0 preferred)
+
+### 1. Relational Database Initialization
+Log into your local MySQL terminal and execute the structural schema script:
+```bash
+mysql -u root -p < src/main/resources/schema.sql
+
+
